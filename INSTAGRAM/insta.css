@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: gray;
+}
+.post-container{
+    border: 1px solid black;
+    height: 550px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+}
+.post-header .left{
+    display: flex;
+    align-items: center;
+    gap: 10px
+    
+}
+
+.btnFollow{
+    padding: 5px;
+    background-color: white;
+    border-radius: 10%;
+    border-color: cornflowerblue;
+    width: 100px;
+    font-size: 15px;
+}
+.foto{
+    display: flex;
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    max-height: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+.post-icons{
+    display: flex;
+    font-size: 25px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.righticon{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 25px;
+    margin-top: 5px;
+    
+}
+.likes{
+    font-size:15px;
+    margin-left: 2px;
+}
+.description{
+    font-size: 13px;
+}
+.hashtag{
+    color: cornflowerblue;
+}
+.user{
+    height: 40px;
+    width: 40px;
+}
+.btnFollow{
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-top: 5%;
+    color: cornflowerblue;
+    border-radius: 10px;
+    
+
+}
+.btnFollow:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: white;
+    transition: 0.5s;
+}
+.username{
+    display: flex;
+    margin-top: 10px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
